@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лекция 6</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<a href="#" class="arrowUp"></a>
+   <i class="fal fa-arrow-up"></i>
+
+
+
+<body>
+
+    <header class="header">
+        <div class="header__inner">
+            <div class="header__logo">
+                <a class="tex">Math</a>
+            </div>
+            <div class="nav">
+                <a class="nav__link" href="index.html">Главная</a>
+                <a class="nav__link" href="lectures.html">Лекции</a>
+                <a class="nav__link" href="test.html">Тесты</a>
+                
+            </div>
+        </div>
+</header>
+
+        <div>
+
+            <div class="text">
+                <h1>МАТЕМАТИЧЕСКИЙ АНАЛИЗ.<br> Пределы
+                    функций. Производная функции</h1>
+            </div>
+    
+        <p>
+
+            Продолжим рассматривать примеры вычисления пределов последовательностей.<br>
+            4. Найти предел последовательности 
+
+        <div class="fix">
+            <img src="img/6/pre1.PNG"  alt=" " >
+        </div>
+
+        Наибольшая степень в числителе и знаменателе — третья, поэтому поделим числитель и знаменатель на <em>n</em><sup>3</sup>. Получим
+        <br>
+
+        <br>
+        <div class="fix">
+            <img src="img/6/pre2.PNG"  alt=" " >
+        </div>
+        <br>
+
+        Воспользоваться теоремой 4 для вычисления предела отношения двух последовательностей невозможно, так как предел последовательности<br>
+
+        <br>
+        <div class="fix">
+            <img src="img/6/pre3.PNG"  alt=" " >
+        </div>
+        <br>
+
+        стоящей в знаменателе, равен 0. 
+        Рассмотрим последовательность
+
+        <br>
+        <div class="fix">
+            <img src="img/6/pre4.PNG"  alt=" " >
+        </div>
+        <br>
+
+        Предел этой последовательности равен 0:
+
+        <br>
+        <div class="fix">
+            <img src="img/6/pre5.PNG"  alt=" " >
+        </div>
+        <br>
+
+        Так как последовательность <em>y</em><sub><em>n</em></sub> — бесконечно малая, то
+
+        <br>
+        <div class="fix">
+            <img src="img/6/pre6.PNG"  alt=" " >
+        </div>
+        <br>
+
+        согласно теореме 1, бесконечно большая последовательность. Таким образом,
+
+        <br>
+        <div class="fix">
+            <img src="img/6/pre7.PNG"  alt=" " >
+        </div>
+        <br>
+
+        <b>Правило.</b> Если у общего члена последовательности степень числителя больше степени знаменателя, то последовательность 
+        бесконечно большая.<br><br>
+
+        <div class="text">
+            <h2>Пределы функций</h2>
+        </div>
+
+        Рассмотрим функцию y = 2x + 1. Фиксируем точку x<sub>0</sub> = 0. Пусть <em>x</em><sub><em>n</em></sub> — некоторая последовательность, сходящаяся к x<sub>0</sub> при <em>n</em>, 
+        стремящемся к ∞. Рассмотрим, например, последовательность<br>
+
+        <br>
+        <div class="fix">
+            <img src="img/6/pre8.PNG"  alt=" " >
+        </div>
+        <br>
+
+        Она сходится к 0
+        <br>
+        <div class="fix">
+            <img src="img/6/pre9.PNG"  alt=" " >
+        </div>
+        <br>
+
+        Подставив в функцию вместо x <em>x</em><sub><em>n</em></sub>, получим новую последовательность
+
+        <br>
+        <div class="fix">
+            <img src="img/6/pre10.PNG"  alt=" " >
+        </div>
+        <br>
+
+        Нас интересует, как ведет себя эта последовательность. Последовательность <em>y</em><sub><em>n</em></sub> сходится к 1 при <EM>N</EM>, стремящемся к ∞(lim<sub>n→∞</sub> <em>y</em><sub><em>n</em></sub>= 1).
+        <br>Рассмотрим, как геометрически изображается связь между 
+        последовательностями <em>x</em><sub><em>n</em></sub> и <em>y</em><sub><em>n</em></sub> (рис. 30).<br>
+
+        <br>
+        <div class="fix">
+            <img src="img/6/pre11.PNG"  alt=" " >
+        </div>
+        <br>
+
+        Нас интересует, как ведет себя последовательность <em>y</em><sub><em>n</em></sub>, если последовательность <em>x</em><sub><em>n</em></sub> сходится к <em>x</em><sub>0</sub>.
+        <br>
+<br>
+        <h3>Определение предела функции</h3>
+        <b>Определение.</b> Число <em>a</em> называется пределом функции <em>y</em>(<em>x</em>) при <em>x</em>, стремящемся к <em>x</em><sub>0</sub>, 
+        если для любой последовательности <em>x</em><sub><em>n</em></sub>, удовлетворяющей условиям: <em>x</em><sub><em>n</em></sub> принадлежит области определения <em>X</em> функции <em>y</em>(<em>x</em>), <em>x</em><sub><em>n</em></sub> ≠ <em>x</em><sub>0</sub>
+        и lim<sub>n→∞</sub> <em>x</em><sub><em>n</em></sub> = <em>x</em><sub>0</sub>,
+
+        <br>
+        <div class="fix">
+            <img src="img/6/pre12.PNG"  alt=" " >
+        </div>
+        <br>
+
+        соответствующая последовательность <em>y</em><sub><em>n</em></sub> = <em>y</em>(<em>x</em><sub><em>n</em></sub>) сходится к <em>a</em>. Это записывают так: 
+
+        <br>
+        <div class="fix">
+            <img src="img/6/pre13.PNG"  alt=" " >
+        </div>
+        <br>
+<br>
+        <h3>Теоремы о предельном переходе при выполнении арифметических операций над функциями</h3>
+        Пусть на множестве <em>X</em> рассматриваются функции <em>y</em>(<em>x</em>) и <em>z</em>(<em>x</em>). <br>
+        Пусть <em>x</em><sub>0</sub> ∈ <em>X</em> и lim<sub>n→∞</sub> <em>y</em>(<em>x</em>) = <EM>a</EM>, lim<sub>n→∞</sub> <em>z</em>(<em>x</em>) = <em>b</em>. Тогда:
+
+        <b>Теорема 1.</b> Предел суммы (разности, произведения) двух функций при <em>x</em>, стремящемся к <em>x</em><sub>0</sub>, равен сумме 
+        (разности, произведению) пределов этих функций, т. е.<br>
+
+        <br>
+        <div class="fix">
+            <img src="img/6/pre14.PNG"  alt=" " >
+        </div>
+        <br>
+
+        <b>Теорема 2.</b> Пусть b ≠ 0. Тогда
+
+        <br>
+        <div class="fix">
+            <img src="img/6/pre15.PNG"  alt=" " >
+        </div>
+        <br>
+
+        <h3>Примеры вычисления пределов функций</h3>
+
+        1. Найдем
+        <br>
+        <div class="fix">
+            <img src="img/6/pre16.PNG"  alt=" " >
+        </div>
+        <br>
+
+        Если мы попытаемся воспользоваться теоремой 2, то увидим, что при <em>x</em>, стремящемся к 1, числитель и знаменатель дроби стремятся 
+        к 0. Такая ситуация называется неопределенностью «ноль на ноль» 
+        (
+        <div class="frac">
+            <span>0</span>
+            <span class="symbol">/</span>
+            <span class="bottom">0</span>
+        </div>
+         )
+        Пока теоремой 2 воспользоваться нельзя. Заметим, что 
+        в числителе стоит разность квадратов. Используя формулу<br>
+
+        <br>
+        <div class="fix">
+            <img src="img/6/pre17.PNG"  alt=" " >
+        </div>
+        <br>
+
+        получим
+        <br>
+        <div class="fix">
+            <img src="img/6/pre18.PNG"  alt=" " >
+        </div>
+        <br>
+
+        2. Найдем
+        <br>
+        <div class="fix">
+            <img src="img/6/pre19.PNG"  alt=" " >
+        </div>
+        <br>
+
+        Попытаемся использовать теорему 2. Найдем предел числителя:
+        <br>
+        <div class="fix">
+            <img src="img/6/pre20.PNG"  alt=" " >
+        </div>
+        <br>
+
+        Найдем предел знаменателя:
+        <br>
+        <div class="fix">
+            <img src="img/6/pre21.PNG"  alt=" " >
+        </div>
+        <br>
+
+        Имеем неопределенность типа «ноль на ноль». <br>
+        В числителе дроби стоит квадратный трехчлен. Разложим его 
+        на множители. Для этого найдем корни квадратного уравнения <br>
+        <br>
+        <div class="fix">
+            <img src="img/6/pre22.PNG"  alt=" " >
+        </div>
+        <br>
+
+        Они равны <em>x</em><sub>1</sub> = -1, <em>x</em><sub>2</sub> = -2.<br>
+        Напомним, что для квадратного уравнения
+        <br>
+        <div class="fix">
+            <img src="img/6/pre23.PNG"  alt=" " >
+        </div>
+        <br>
+
+        корни <em>x</em><sub>1,2</sub> находятся по формуле
+
+        <br>
+        <div class="fix">
+            <img src="img/6/pre24.PNG"  alt=" " >
+        </div>
+        <br>
+
+        и разложение на множители записывается так:
+        <br>
+        <div class="fix">
+            <img src="img/6/pre25.PNG"  alt=" " >
+        </div>
+        <br>
+
+        Возвращаясь к нашему примеру, получим
+        <br>
+        <div class="fix">
+            <img src="img/6/pre26.PNG"  alt=" " >
+        </div>
+        <br>
+
+        Предел функции при <em>x</em>, стремящемся к бесконечности (<em>x</em>→∞), вычисляется так же, как для последовательности.<br><br>
+        <div class="text">
+        <h2>Производная функции</h2>
+        </div>
+
+        <h3>Приращение функции</h3>
+         Приращение функции, обозначаемое через Δ<sub><em>y</em></sub>, показывает, на 
+        сколько значение функции в точке <em>x</em><sub>0</sub> + Δ<sub><em>x</em></sub> отличается от значения функции в точке <em>x</em><sub>0</sub>(рис. 31).<br>
+
+        <br>
+        <div class="fix">
+            <img src="img/6/pre27.PNG"  alt=" " >
+        </div>
+        <br>
+
+        Приращение аргумента — Δ<sub><em>x</em></sub>, приращение функции — Δ<em>y</em> = <em>y</em>(<em>x</em><sub>0</sub> +  Δ<em>x</em>) - <em>y</em>(<em>x</em><sub>0</sub>)
+        <br>
+<br>
+        <h3>Производная</h3>
+        <b>Определение.</b> Производной <em>y</em>′(<em>x</em><sub>0</sub>) функции <em>y</em>(<em>x</em>) в точке <em>x</em><sub>0</sub>
+        называется предел отношения приращения функции к приращению аргумента, когда приращение аргумента стремится к нулю:<br>
+        <br>
+        <div class="fix">
+            <img src="img/6/pre29.PNG"  alt=" " >
+        </div>
+        <br>
+
+        если этот предел существует. Итак,
+
+        <br>
+        <div class="fix">
+            <img src="img/6/pre30.PNG"  alt=" " >
+        </div>
+        <br>
+
+        <h3>Схема вычисления производной</h3>
+        1. Вычислить <em>y</em>(<em>x</em><sub>0</sub>).
+        2. Вычислить <em>y</em>(<em>x</em><sub>0</sub>+ Δ<em>x</em>).
+        3. Найти приращение функции Δ<em>y</em> = <em>y</em>(<em>x</em><sub>0</sub> + ∆<em>x</em>) - <em>y</em>(<em>x</em><sub>0</sub>).
+        4. Найти отношение 
+        <div class="frac">
+            <span>Δ<em>y</em></span>
+            <span class="symbol">/</span>
+            <span class="bottom">∆<em>x</em></span>
+        </div>
+
+        5.  Найти предел отношения при ∆<em>x</em> →0, т. е. производную <em>y</em>′(<em>x</em><sub>0</sub>).<br>
+
+        Найдем по определению производную функции <em>y</em> = <em>x</em><sup>2</sup>.<br><br>
+        <img src="img/6/pre31.PNG" alt=""><br>
+        <img src="img/6/pre33.PNG" alt="">
+        <br>
+<br>
+        <h3>Физический смысл производной</h3><br>
+        Пусть независимая переменная <em>t</em> — это время. Рассматриваемая функция <em>s</em>(<em>t</em>) — путь, 
+        пройденный точкой <em>M</em> от начальной точки O за время <em>t</em> (если <em>t</em> измеряется, например, в минутах, то <em>s</em>(3) — путь, пройденный точкой <em>M</em> от начальной точки O за 
+        3 мин, <em>s</em>(5) — путь, пройденный точкой <em>M</em> от начальной точки <em>O</em> за 5 мин).<br>
+        Тогда <em>s</em>(<em>t</em> + Δ<em>t</em>) — путь, пройденный точкой <em>M</em> от начальной точки O за время <em>t</em> + Δ<em>t</em>.
+        На рис. 32 путь <em>MM</em>′ пройден за 2 мин и равен <em>s</em>(3) − <em>s</em>(5)
+
+        <br>
+        <div class="fix">
+            <img src="img/6/pre34.PNG"  alt=" " >
+        </div>
+        <br>
+
+        На рис. 33 путь <em>MM</em>′ пройден за Δ<em>t</em> мин и равен
+
+        <br>
+        <div class="fix">
+            <img src="img/6/pre35.PNG"  alt=" " >
+        </div>
+        <br>
+
+        Средняя скорость <em>ν</em> на заданном отрезке пути определяется как отношение пути ко времени, за которое этот путь пройден. 
+        Средняя скорость <em>ν</em> на отрезке <em>MM</em>′ на рис. 32 равна 
+
+        <div class="frac">
+            <span><em>s</em>(5) - <em>s</em>(3)</span>
+            <span class="symbol">/</span>
+            <span class="bottom">2</span>
+        </div>
+
+        на рис. 33 — 
+        <div class="frac">
+            <span>Δ<em>s</em></span>
+            <span class="symbol">/</span>
+            <span class="bottom">Δ<em>t</em></span>
+        </div>
+        Если Δ<em>t</em> → 0, то <em>M</em>′ → <em>M</em> и lim<sub>Δ<em>t</em>→0</sub>
+        <div class="frac">
+            <span>Δ<em>s</em></span>
+            <span class="symbol">/</span>
+            <span class="bottom">Δ<em>t</em></span>
+        </div>
+        = <em>s</em>'(<em>t</em>)— это 
+        мгновенная скорость в точке <em>M</em> Итак, производная пути по времени при <em>t</em> = <em>t</em><sub>0</sub>
+         — это мгновенная скорость движения точки <em>M</em> в моментem <em>t</em><sub>0</sub>.<br>
+        Таким образом, <em>y</em>′(<em>x</em><sub>0</sub>) — это скорость изменения функции <em>y</em>(<em>x</em>) 
+        в точке <em>x</em><sub>0</sub>.
+        <br>
+        <br>
+
+        <h3>Таблица производных</h3>
+        <img src="img/6/pre36.PNG" alt="">
+        <br>
+
+        <h3>Примеры использования формулы 1 из таблицы производных</h3>
+
+        <img src="img/6/pre37.PNG" alt="">
+<br>
+        <h3>Свойства производной</h3>
+     
+     
+        <img src="img/6/38.PNG" alt=""><br>
+        </p>   
+        </div>
+        
+</body>  
+<div class="copy">
+            <a class="start" href="file/пределы.pdf"> Здесь Практическая работа</a>
+            <p>© 2020 Name Site. All Rights Reserved | Design by <a href="#">StockShablonov</a> </p>
+            </div>
+</html>

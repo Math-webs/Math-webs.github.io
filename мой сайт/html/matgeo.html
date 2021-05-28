@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лекция 7</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<a href="#" class="arrowUp"></a>
+   <i class="fal fa-arrow-up"></i>
+
+
+<body>
+    
+    <header class="header">
+        <div class="header__inner">
+            <div class="header__logo">
+                <a class="tex">Math</a>
+            </div>
+            <div class="nav">
+                <a class="nav__link" href="index.html">Главная</a>
+                <a class="nav__link" href="lectures.html">Лекции</a>
+                <a class="nav__link" href="test.html">Тесты</a>
+               
+            </div>
+        </div>
+</header>
+
+
+        <div>
+            <div class="text">
+            <h1>МАТЕМАТИЧЕСКИЙ АНАЛИЗ.<br> 
+                Геометрический смысл производной. <br>
+                Дифференциал. <br>
+                Неопределенный интеграл</h1>
+            </div>
+
+            <p>
+            Продолжим рассматривать примеры вычисления производных.
+            <B>Примеры.</B> Найти производные от следующих функций:<br>
+            <br>
+
+        <img src="img/7/mg1.PNG"  alt=" " ><br>
+
+        <h3>Геометрический смысл производной</h3>
+        
+        Прямая <em>M</em><sub>0</sub> <em>P</em>,
+        P, изображенная на рис. 34, является касательной 
+        к кривой <EM>y</EM> = <em>f</em>(<em>x</em>). Она имеет с кривой только одну общую точку <em>M</em><sub>0</sub>(<em>x</em><sub>0</sub>,ƒ(<em>x</em><sub>0</sub>)).
+
+        <br></br>
+        <div class="fix">
+            <img src="img/7/mg2.PNG"  alt=" " >
+        </div>
+        <br>
+
+        Производная функции <EM>y</EM> = <em>f</em>(<em>x</em>) в точке <em>x</em><sub>0</sub>
+        равна тангенсу угла наклона касательной к кривой <EM>y</EM> = <em>f</em>(<em>x</em>), проведенной через точку <em>M</em><sub>0</sub>(<em>x</em><sub>0</sub>,ƒ(<em>x</em><sub>0</sub>)).
+        <br>
+        Пусть ∠<em>M</em><sub>0</sub> <em>P</em><sub><EM>x</EM></sub> = α.Тогда tgα = ƒ'(<em>x</em><sub>0</sub>).
+        <br>
+
+        <h3>Уравнение касательной</h3>
+
+        Для касательной <em>M</em><sub>0</sub> <em>P</em> известен тангенс угла наклона <em>k</em> = ƒ'(<em>x</em><sub>0</sub>)
+        и точка <em>M</em><sub>0</sub>(<em>x</em><sub>0</sub>,ƒ(<em>x</em><sub>0</sub>)) через которую проходит прямая. Нетрудно записать уравнение касательной:
+
+        <br></br>
+        <div class="fix">
+            <img src="img/7/mg3.PNG"  alt=" " >
+        </div>
+        <br>
+
+        <b>Пример.</b> Записать уравнение касательной к кривой <em>y</em> = <em>x</em><sub>2</sub> в точке (−1, 1).
+
+        <br></br>
+        <div class="fix">
+            <img src="img/7/mg4.PNG"  alt=" " >
+        </div>
+        <br>
+
+        <h3>Понятие сложной функции</h3>
+
+        Пусть на множестве <em>X</em> задана функция <em>y</em> = <em>g</em>(<em>x</em>), <em>Y</em> — область 
+        значений этой функции. На множестве <em>Y</em> задана функция <em>z</em> = ƒ(<em>y</em>) c областью значений <em>Z</em> (рис. 35).
+
+        <br></br>
+        <div class="fix">
+            <img src="img/7/mg5.PNG"  alt=" " >
+        </div>
+        <br>
+
+        <em>z</em> = ƒ(<em>g</em>(<em>x</em>)) — сложная функция.<br><br>
+
+        <b>Примеры</b><br>
+        <img src="img/7/mg6.PNG" alt="" >
+
+        <h3>Производная сложной функции</h3>
+
+        Пусть функция <em>y</em> = <em>g</em>(<em>x</em>) имеет производную <em>g'</em><sub><em>x</em></sub>(<em>x</em>) во всех точках множества 
+        <em>X</em> и функция  <em>z</em> = ƒ(<em>y</em>) имеет производную <em>ƒ'</em><sub><em>y</em></sub>(<em>y</em>) во 
+        всех точках множества <em>Y</em>. Тогда производная сложной функции вычисляется по формуле
+
+        </br>
+        <div class="fix">
+            <img src="img/7/mg7.PNG"  alt=" " >
+         </div>
+        <br>
+
+        <b>Примеры.</b> Найти производные сложных функций:<br>
+        <img src="img/7/mg8.PNG" alt="">
+        <img src="img/7/mg9.PNG" alt="">
+
+        <div class="text">
+            <h2>Дифференциал</h2>
+        </div>
+        <br>
+
+        Если функция <em>y</em> = <em>y</em>(<em>x</em>) имеет производную <em>y'</em>(<em>x</em><sub>0</sub>), то приращение функции Δ<em>y</em> имеет следующую структуру:
+
+        </br>
+        <div class="fix">
+            <img src="img/7/mg10.PNG"  alt=" " >
+        </div>
+        <br>
+
+        где α(Δ<em>x</em>) — бесконечно малая, поэтому второе слагаемое при Δ<em>x</em>→0 становится очень маленьким и им можно пренебречь. 
+        При Δ<em>x</em> → 0 Δ<em>y</em> ≈ <em>y'</em>(<em>x</em><sub>0</sub>)Δ<em>x</em>. Вместо Δ<em>x</em> писать договорились <em>dx</em> и обозначили 
+        <em>dy</em> = <em>y'</em>(<em>x</em><sub>0</sub>)<em>dx</em>. Тогда Δ<em>y</em> ≈ <em>dy</em>.
+
+        <br>
+
+        <b>Определение.</b> Пусть функция <em>y</em> = <em>y</em>(<em>x</em>) имеет производную <em>y'</em>(<em>x</em><sub>0</sub>),
+        тогда  <em>dy</em> = <em>y'</em>(<em>x</em><sub>0</sub>)<em>dx</em> называется дифференциалом функции в точке <em>x</em><sub>0</sub>.
+
+        <b>>Пример.</b> Записать дифференциал функции <em>y</em> = <em>x</em><sup>2</sup> - 4<em>x</em>.
+
+        </br>
+        <div class="fix">
+            <img src="img/7/mg11.PNG"  alt=" " >
+        </div>
+        <br>
+
+        <b>Определение.</b> Функция, имеющая конечную производную в точке <em>x</em><sub>0</sub>,
+        называется дифференцируемой в точке <em>x</em><sub>0</sub>.
+
+        <div class="text">
+            <h2>Неопределенный интеграл</h2>
+        </div>
+
+        <h3>Первообразная</h3>
+
+        По заданной функции <em>y</em>(<em>x</em>) мы умеем искать ее производную <em>y'</em>(<em>x</em>).<br>
+        <b>Определение.</b> Пусть на интервале (<em>a</em>, <em>b</em>) задана функция 
+        ƒ(<em>x</em>) и она является производной некоторой функции g(<em>x</em>), т. е. 
+        g′(<em>x</em>) = ƒ(<em>x</em>). Функция g(<em>x</em>) называется первообразной. <br>
+        Как ее найти?
+        <br>
+        <h3>Определение неопределенного интеграла</h3>
+        Если мы знаем первообразную g(<em>x</em>) для функции ƒ(<em>x</em>), то g(<em>x</em>) + <em>C</em>,
+        где <em>C</em> — любая константа, тоже является первообразной для функции ƒ(<em>x</em>), т. е. первообразных много, целый класс {g(<em>x</em>) + <em>C</em>}.
+        Можно показать, что любая первообразная принадлежит этому классу, т. е. все первообразные отличаются друг 
+        от друга на константу. Этот класс обозначают значком <B>∫</B>  ƒ(<em>x</em>)<EM>dx</EM>
+        и называют неопределенный интеграл: <B>∫</B> ƒ(<em>x</em>)<em>dx</em> =  {g(<em>x</em>) + <em>C</em>}; ƒ(<em>x</em>)
+        называется подынтегральная функция, ƒ(<em>x</em>)<EM>dx</EM> — подынтегральное выражение.<br>
+        Не для всякой функции f(<em>x</em>) существует неопределенный интеграл.
+        <br>
+        <b>Определение</b> Функция f(<em>x</em>) называется интегрируемой 
+        на интервале (<em>a</em>, <em>b</em>), если неопределенный интеграл ƒ(<em>x</em>)<EM>dx</EM> существует.
+
+        <h3>Таблица интегралов</h3>
+        <img src="img/7/mg12.PNG" alt="">
+        <br>
+        <h3>Примеры.</h3><a>Найти интегралы.</a><br>
+        <img src="img/7/mg13.PNG" alt="">
+        <img src="img/7/mg14.PNG" alt="">
+        <br>
+
+        <h3>Свойства интегралов</h3>
+
+        1. Константу можно выносить за знак интеграла:
+        </br>
+        <div class="fix">
+             <img src="img/7/mg15.PNG"  alt=" " >
+         </div>
+        <br>
+        
+        2. Интеграл от суммы двух функций равен сумме интегралов 
+        от этих функций:
+        </br>
+        <div class="fix">
+            <img src="img/7/mg16.PNG"  alt=" " >
+        </div>
+        <br>
+
+        <h3>Примеры.</h3> <a>Найти интегралы.</a><br>
+        <img src="img/7/mg17.PNG" alt="">
+        <img src="img/7/mg18.PNG" alt="">
+        <br>
+
+        <h3>Замена переменной в неопределенном интеграле</h3>
+
+        Пусть на отрезке [α, β] задана дифференцируемая функция <em>x</em> = <em>φ</em>(<em>t</em>) и <em>x</em> ∈ [<em>a</em>, <em>b</em>],
+        а на [<em>a</em>, <em>b</em>] определена функция <em>y</em> = ƒ(<em>x</em>). Пусть ƒ(<em>x</em>) интегрируема и <em>g</em>(<em>x</em>) ее первообразная, т. е. 
+        <B>∫</B> ƒ(<em>x</em>)<em>dx</em> = <em>g</em>(<em>x</em>) + <em>C</em>. <br>
+        Рассмотрим интеграл <B>∫</B> ƒ(<em>φ</em>(<em>t</em>)) <em>φ'</em>(<em>t</em>)<em>dt</em>. Оказывается, он равен <em>g</em>(<em>φ</em>(<em>t</em>)),
+        т. е. имеет место формула замены переменной:
+
+        </br>
+        <div class="fix">
+            <img src="img/7/mg19.PNG"  alt=" " >
+        </div>
+        <br>
+
+        Черта означает, что после вычисления интеграла вместо <em>x</em> нужно подставить <em>φ</em>(<em>t</em>).<br>
+        Замена заключается в том, что <em>φ</em>(<em>t</em>) заменяется на <em>x</em>, а <em>φ'</em>(<em>t</em>)<em>dt</em>
+        заменяется на <em>dx</em>.
+
+        <b>Пример.</b> Найти <B>∫</B> 5(5<em>t</em> + 3)<sup>2</sup> <em>dt</em>.<br>
+        Заменим 5<em>t</em> + 3 на <em>x</em>: <em>x</em> =  5<em>t</em> + 3, тогда <em>dx</em> = 5<em>dt</em> Получим
+
+        </br>
+        <div class="fix">
+             <img src="img/7/mg20.PNG"  alt=" " >
+        </div>
+        <br>
+
+        <b>Пример</b>
+
+        </br>
+        <div class="fix">
+            <img src="img/7/mg21.PNG"  alt=" " >
+        </div>
+        <br>
+
+        <b>Пример</b>
+        </br>
+        <div class="fix">
+            <img src="img/7/mg22.PNG"  alt=" " >
+        </div>
+        <br>
+
+
+            </div>
+</body>
+
+<div class="copy">
+    <a class="start" href="file/Неопределенный интеграл.pptx"> Здесь вы можете скачать неопределенный интеграл</a>
+    <p>© 2021. Все права защищены  | <a href="#">Автор</a> </p>
+    </div>
+
+</html>

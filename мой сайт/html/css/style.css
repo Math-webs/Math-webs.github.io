@@ -1,0 +1,248 @@
+body{
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-size: 25px;
+
+}
+
+/* Header=======
+=====*/
+
+.header{
+  position: sticky;
+  background-color: rgb(133, 133, 133);
+} 
+
+
+.tex {
+ font-family: Georgia, Times, serif;
+ font-size: 22px;
+ color: rgb(226, 0, 113);
+ margin: 0px 30px;
+}
+
+.header__inner {
+ 
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+    align-items: center;
+    border-bottom: 1px solid #515369;
+
+}
+
+/* NAV=======
+=====*/
+
+.nav {
+    
+    display: flex;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.nav__link {
+  display: inline-block;
+   color: seashell;
+   margin: 0px 30px;
+    text-decoration: none;
+    opacity: .75;
+}
+
+.nav__link:hover {
+    opacity: 1;
+    color: rgb(226, 0, 113);
+}
+
+/* ETC=======
+=====*/
+
+
+.text {
+    text-align: center;
+  }
+
+
+.fix {
+    text-align: center;
+}
+
+.plot {
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+
+.vvex{
+    text-decoration: overline;
+  }
+
+.bot {
+    margin-bottom: -25px;
+}
+
+.frac {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    letter-spacing: 0.001em;
+    text-align: center;
+  }
+  .frac > span {
+    display: block;
+    padding: 0.1em;
+  }
+  .frac span.bottom {
+    border-top: thin solid black;
+  }
+  .frac span.symbol {
+    display: none;
+  }
+
+  .copy {
+    text-align: center;
+    background: rgb(133, 133, 133);
+    }
+    .copy p {
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 1em;
+    }
+    .copy p a {
+    color: #ffa81d;
+    text-decoration: none;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    }
+    .copy p a:hover{
+    color:rgb(226, 0, 113);
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    }
+
+
+    .start{
+      color: ivory;
+    }
+
+    .let {
+      float:left;
+      margin: 7px 30px 7px 30px; /* Отступы вокруг картинки */
+     }
+
+
+
+/* ball=======
+=====*/
+
+
+     .ball {
+      list-style: none;
+      margin: 0px;
+    }
+    .ball a {
+      width: 100%;
+      color: #2c2326;
+      text-decoration: none;
+      display: inline-block;
+      padding-left: 25px;
+      height: 44px;
+      line-height: 44px;
+      font-size: 20px;
+      position: relative;
+      transition: 0.3s linear;
+    }
+
+  .ball a:hover{
+    color:rgb(226, 0, 113);
+
+}
+
+    .ball a:before {
+      content: "";
+      width: 30px;
+      height: 30px;
+      border-radius: 40%;
+      background: #939394;
+      position: absolute;
+      left: -30px;
+      top: 7px;
+    }
+    .ball li {
+      position: relative;
+    }
+    .ball li:before {
+      content: "";
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: #ffa81d;
+      position: absolute;
+      top: 12px;
+      left: -50px;
+      z-index: 2;
+      transition: 0.5s ease-in-out;
+    }
+    .ball li:hover:before {
+      left: -30px;
+    }
+
+    
+  @media screen and (max-width: 1200px)
+  {
+    .header__inner {
+      background-color: rgb(133, 133, 133);
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 0px;
+        align-items: center;
+        border-bottom: 1px solid #515369;
+    
+    }
+
+    .nav__link {
+      color: seashell;
+      margin: 0px 5px;
+       text-decoration: none;
+       opacity: .75;
+   }
+
+
+    .text {
+      text-align: center;
+    }  
+ 
+    .fix img{
+      width: 100%;
+      height: auto;
+    }
+
+  }
+
+  @media screen and (max-width: 1024px)
+  {
+
+    .header 
+    {
+      max-width: 1024px;
+    }
+
+  }
+
+  @media screen and (max-width: 948px)
+  {
+   
+    .header 
+    {
+      max-width: 948px;
+    }
+
+  }

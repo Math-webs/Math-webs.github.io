@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header__inner">
+            <div class="header__logo">
+                <a class="tex">Math</a>
+            </div>
+            <div class="nav">
+                <a class="nav__link" href="index.html">Главная</a>
+                <a class="nav__link" href="lectures.html">Лекции</a>
+                <a class="nav__link" href="test.html">Тесты</a>
+                
+            </div>
+        </div>
+</header>
+
+    <form name="qiuz" class="quiz" id="quiz" action="javascript:check();"> 
+
+        <div class="text">
+        <h3>Вопрос 1</h3>
+        <p>Даны матрицы <br> <img src="img/9/t1.PNG" alt="">, <img class="bot" src="img/9/t2.PNG" alt="">.<br><br>
+            Существует ли произведение <em>A</em> * <em>B</em><sup><em>T</em></sup>,и, если существует, найдите его.</sub>
+        </p>    
+        <label><input  name="vopros1" checked="checked" value="no" id="valuel" type="radio">1. <img src="img/9/t3.PNG" alt=""> <br><br>
+        <label><input name="vopros1" value="no" id="valuel" type="radio">2. <img src="img/9/t4.PNG" alt=""><br><br>
+        <label><input name="vopros1" value="no" id="valuel" type="radio">3. <img src="img/9/t5.PNG" alt=""> <br><br>
+        <label><input name="vopros1" value="yes" id="valuel" type="radio">4. <img src="img/9/t6.PNG" alt=""><br><br>
+            <hr>
+
+        <h3>Вопрос 2</h3>
+        <p>Вычислить определитель<br><br>
+            <img src="img/9/t7.PNG" alt="">
+        </p>
+        <label><input name="vopros2" checked="checked" value="no" id="valuel" type="radio">1) 1 <br>
+        <label><input name="vopros2" value="no" id="valuel" type="radio">2) 2 <br>
+        <label><input name="vopros2" value="no" id="valuel" type="radio">3) 11 <br>
+        <label><input name="vopros2" value="yes" id="valuel" type="radio">4) 12 <br>
+            <hr>
+
+        <h3>Вопрос 3</h3>
+        <p>Даны векторы: <a class="vvex"><em>a</em></a> = (1, 2, 3),
+            <a class="vvex"><em>b</em></a> = (1, 0, 2). Найти линейную комбинацию
+        2<a class="vvex"><em>a</em></a> + 3<a class="vvex"><em>b</em></a>.
+        </p>
+        <label><input name="vopros3" checked="checked" value="yes" id="valuel" type="radio"> 1) (5, 4, 12)<br>
+        <label><input name="vopros3" value="no" id="valuel" type="radio"> 2) (2, 2, 5)<br>
+        <label><input name="vopros3" value="no" id="valuel" type="radio"> 3) (5, 2, 5) <br>
+        <label><input name="vopros3" value="no" id="valuel" type="radio"> 4) (0, 2, 5) <br>
+            <hr>
+
+        <h3>Вопрос 4</h3>
+        <p>Найти точку пересечения прямых
+            <em>x</em> + <em>y</em> -3 = 0 и
+            2<em>x</em> + 3<em>y</em> - 8 = 0.
+        </p>
+        <label><input name="vopros4" checked="checked" value="no" id="valuel" type="radio">1) (2; 1) <br>
+        <label><input name="vopros4" value="no" id="valuel" type="radio">2) (-1; -2) <br>
+        <label><input name="vopros4" value="no" id="valuel" type="radio">3) (3; 2)<br>
+        <label><input name="vopros4" value="yes" id="valuel" type="radio">4) (1; 2)<br>
+            <hr>
+
+        <h3>Вопрос 5</h3>
+        <p>Результат вычисления предела<br>
+            <img src="img/9/t8.PNG" alt="">
+            <br> равен.
+        </p>
+        <label><input name="vopros5" checked="checked" value="yes" id="valuel" type="radio">1) -2 <br>
+        <label><input name="vopros5" value="no" id="valuel" type="radio">2) -1 <br>
+        <label><input name="vopros5" value="no" id="valuel" type="radio">3) 2<br>
+        <label><input name="vopros5" value="no" id="valuel" type="radio">4) 0<br>
+            <hr>
+
+        <h3>Вопрос 6</h3>
+        <p> <div>Если ƒ(<em>x</em>) =
+            <div class="frac">
+                <span>2<em>x</em> - 3</span>
+                <span class="symbol">/</span>
+                <span class="bottom"><em>x</em> - 4</span>
+            </div></div> то ƒ(<em>x</em><sup>2</sup>) - ƒ(<em>x</em> + 2) при
+            <em>x</em> = -2<em>cos</em>ϕ приводится к виду. 
+        </p>
+        <label><input name="vopros6" checked="checked" value="no" id="valuel" type="radio">1)
+        <div class="frac">
+            <span>2<em>cos</em>ϕ - 1</span>
+            <span class="symbol">/</span>
+            <span class="bottom">4<em>sin</em><sup>2</sup></span>
+        </div>  
+        <br>
+
+        <label><input name="vopros6" value="yes" id="valuel" type="radio"> 2) -
+        <div class="frac">
+            5( 1 -2<em>cos</em>ϕ)
+            <span class="symbol">/</span>
+            <span class="bottom">4<em>sin</em><sup>2</sup>ϕ</span>
+        </div>
+         <br>
+
+         <label><input name="vopros6" value="no" id="valuel" type="radio">3) 
+        <div class="frac">
+            <span>1 - 10<em>cos</em>ϕ</span>
+            <span class="symbol">/</span>
+            <span class="bottom">4<em>sin</em><sup>2</sup></span>
+        </div>
+        <br>
+
+        <label><input name="vopros6" value="no" id="valuel" type="radio">4) 
+        <div class="frac">
+            <span>5 -10<em>cos</em>ϕ</span>
+            <span class="symbol">/</span>
+            <span class="bottom">4<em>sin</em><sup>2</sup>ϕ</span>
+        </div>
+        <br>
+        <hr>
+
+        <h3>Вопрос 7</h3>
+        <p> Чему равен угловой коэффициент асимптоты гиперболы,
+            изображенной
+            на рисунке? <br>
+            <img src="img/9/t9.PNG" alt="">
+        </p>
+        <label><input name="vopros7" checked="checked" value="no" id="valuel" type="radio">1) 2 <br>
+        <label><input name="vopros7" value="yes" id="valuel" type="radio">2) 0.5 <br>
+        <label><input name="vopros7" value="no" id="valuel" type="radio">3) 1 <br>
+        <label><input name="vopros7" value="no" id="valuel" type="radio">4) 4 <br><br>
+        
+
+
+
+        <input value="ответ" type="submit" id="submit"
+        style="width: 15%;">
+    </div>
+
+    </form>
+    
+    <script>
+
+        function check()
+        {
+            var yes=0;
+            var no=0;
+            var otvet=" ";
+            var choice;
+            for (var v=1; v<=7; v++)
+            {
+                var q = document.forms['quiz'].elements['vopros'+v];
+                for (var i=0; i<q.length; i++)
+                {
+                  if (q[i].checked) {
+                      choice=q[i].value;
+                }
+                }
+            
+                    if (choice=="yes") {yes++;}
+                    if (choice=="no") {no++;}
+                }
+                switch (true) {
+                case (yes==7) : otvet="оценка 5";break;
+                case (yes>7) : otvet="оценка 4";break;
+                case (yes>5) : otvet="оценка 3";break;
+                case (yes>3) : otvet="Трудись!";break;
+                default: otvet="очент плохо!"; break;
+            }
+                alert(otvet);  
+            }
+          
+
+    </script>
+</body>
+</html>
