@@ -164,8 +164,9 @@
                 }
                 switch (true) {
                 case (yes==7) : otvet="оценка 5";break;
-                case (yes>7) : otvet="оценка 4";break;
-                case (yes>5) : otvet="оценка 3";break;
+                case (yes==5) : otvet="оценка 4";break;
+                case (yes==6) : otvet="оценка 4";break;
+                case (yes==4) : otvet="оценка 3";break;
                 case (yes>3) : otvet="Трудись!";break;
                 default: otvet="очент плохо!"; break;
             }
